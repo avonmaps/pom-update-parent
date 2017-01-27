@@ -1,0 +1,14 @@
+name: pom-update-parent
+version: 1.0.0
+description: Update parent version in maven pom.xml.
+keywords:
+  - java
+  - maven
+  - version
+properties:
+  version:
+    type: string
+    required: true
+  pom:
+    type: string
+    required: false
